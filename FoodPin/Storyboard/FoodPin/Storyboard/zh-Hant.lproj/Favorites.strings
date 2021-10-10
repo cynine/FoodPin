@@ -1,0 +1,108 @@
+
+/* Class = "UILabel"; text = "ADDRESS"; ObjectID = "01H-gs-nWW"; */
+"01H-gs-nWW.text" = "ADDRESS";
+
+/* Class = "UIButton"; configuration.title = "Cool"; ObjectID = "1ht-YG-nqI"; */
+"1ht-YG-nqI.configuration.title" = "Cool";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1ht-YG-nqI"; */
+"1ht-YG-nqI.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Angry"; ObjectID = "3Bg-9f-m6Y"; */
+"3Bg-9f-m6Y.configuration.title" = "Angry";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "3Bg-9f-m6Y"; */
+"3Bg-9f-m6Y.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "PHONE"; ObjectID = "3rE-bD-hfw"; */
+"3rE-bD-hfw.text" = "PHONE";
+
+/* Class = "UILabel"; text = "TYPE"; ObjectID = "4jP-XS-QcM"; */
+"4jP-XS-QcM.text" = "TYPE";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "68f-g7-zcE"; */
+"68f-g7-zcE.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Fill in the restaurant name"; ObjectID = "Ais-w8-e1w"; */
+"Ais-w8-e1w.placeholder" = "Fill in the restaurant name";
+
+/* Class = "UILabel"; text = "DESCRIPTION"; ObjectID = "FfQ-nr-mpk"; */
+"FfQ-nr-mpk.text" = "DESCRIPTION";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "H5p-a6-usR"; */
+"H5p-a6-usR.title" = " ";
+
+/* Class = "UINavigationItem"; title = "New Restaurant"; ObjectID = "Jt9-A8-9Rr"; */
+"Jt9-A8-9Rr.title" = "New Restaurant";
+
+/* Class = "UIButton"; configuration.title = "Sad"; ObjectID = "Lwj-rq-SIc"; */
+"Lwj-rq-SIc.configuration.title" = "Sad";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Lwj-rq-SIc"; */
+"Lwj-rq-SIc.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "PgN-K5-jFl"; */
+"PgN-K5-jFl.text" = "Name";
+
+/* Class = "UITabBarItem"; title = "Favorites"; ObjectID = "QhQ-Z5-ONu"; */
+"QhQ-Z5-ONu.title" = "Favorites";
+
+/* Class = "UILabel"; text = "Type"; ObjectID = "SCl-hq-Xt6"; */
+"SCl-hq-Xt6.text" = "Type";
+
+/* Class = "UITextField"; placeholder = "Fill in the type"; ObjectID = "TqY-nd-cPl"; */
+"TqY-nd-cPl.placeholder" = "Fill in the type";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Y8u-8Y-6qV"; */
+"Y8u-8Y-6qV.text" = "Label";
+
+/* Class = "UILabel"; text = "NAME"; ObjectID = "ZDc-RM-rZ5"; */
+"ZDc-RM-rZ5.text" = "NAME";
+
+/* Class = "UIButton"; configuration.title = "Rate it"; ObjectID = "ZUn-Y0-DNY"; */
+"ZUn-Y0-DNY.configuration.title" = "Rate it";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ZUn-Y0-DNY"; */
+"ZUn-Y0-DNY.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bAq-8C-dfX"; */
+"bAq-8C-dfX.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cia-Pv-k72"; */
+"cia-Pv-k72.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hAR-P5-Q1F"; */
+"hAR-P5-Q1F.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Fill in the phone"; ObjectID = "i4H-xj-81V"; */
+"i4H-xj-81V.placeholder" = "Fill in the phone";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "k95-fw-dc0"; */
+"k95-fw-dc0.text" = "Location";
+
+/* Class = "UITextView"; text = "A great restaurant to try out"; ObjectID = "nrq-MK-Ht9"; */
+"nrq-MK-Ht9.text" = "A great restaurant to try out";
+
+/* Class = "UITextField"; placeholder = "Fill in the address"; ObjectID = "qTd-ob-sP7"; */
+"qTd-ob-sP7.placeholder" = "Fill in the address";
+
+/* Class = "UINavigationItem"; title = "Food Pin"; ObjectID = "qz6-Dd-0Nb"; */
+"qz6-Dd-0Nb.title" = "Food Pin";
+
+/* Class = "UILabel"; text = "Subsection Title"; ObjectID = "tGZ-5Y-cMC"; */
+"tGZ-5Y-cMC.text" = "Subsection Title";
+
+/* Class = "UIButton"; configuration.title = "Love"; ObjectID = "wDJ-6T-qWk"; */
+"wDJ-6T-qWk.configuration.title" = "Love";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "wDJ-6T-qWk"; */
+"wDJ-6T-qWk.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Happy"; ObjectID = "wyJ-up-02v"; */
+"wyJ-up-02v.configuration.title" = "Happy";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "wyJ-up-02v"; */
+"wyJ-up-02v.normalTitle" = "Button";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "zSL-sX-atd"; */
+"zSL-sX-atd.title" = " ";

@@ -1,0 +1,12 @@
+
+/* Class = "UITabBarItem"; title = "About"; ObjectID = "TaL-WN-xbS"; */
+"TaL-WN-xbS.title" = "About";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "bsM-uB-maC"; */
+"bsM-uB-maC.title" = " ";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "nXc-46-4qU"; */
+"nXc-46-4qU.text" = "Title";
+
+/* Class = "UINavigationItem"; title = "About"; ObjectID = "okV-PS-dC7"; */
+"okV-PS-dC7.title" = "About";

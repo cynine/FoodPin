@@ -11,7 +11,7 @@ class RestaurantDetailViewController: UIViewController, UITableViewDataSource, U
   @IBOutlet var tableView: UITableView!
   @IBOutlet var headerView: RestaurantDetailHeaderView!
 
-  var restaurant = Restaurant()
+  var restaurant: RestaurantMO!
 
   override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
@@ -30,9 +30,14 @@ class RestaurantDetailViewController: UIViewController, UITableViewDataSource, U
     // 设置标题视图
     headerView.nameLabel.text = restaurant.name
     headerView.typeLable.text = restaurant.type
-    headerView.headertImageView.image = UIImage(named: restaurant.image)
+    if let restaurantImage = restaurant.image {
+      headerView.headertImageView.image = UIImage(data: restaurantImage as Data)
+    }
     headerView.heartImageView.isHidden = restaurant.isVisited ? false : true
-
+    if let rating = restaurant.rating {
+      headerView.ratingImageView.image = UIImage(named: rating)
+    }
+    
     tableView.separatorStyle = .none
 
     // 导航栏定制
@@ -54,6 +59,10 @@ class RestaurantDetailViewController: UIViewController, UITableViewDataSource, U
       if let rating = segue.identifier {
         self.restaurant.rating = rating
         self.headerView.ratingImageView.image = UIImage(named: rating)
+        
+        if let appDelegate = (UIApplication.shared.delegate as? AppDelegate) {
+          appDelegate.saveContext()
+        }
         
         let scaleTransform = CGAffineTransform.init(scaleX: 0.1, y: 0.1)
         self.headerView.ratingImageView.transform = scaleTransform
@@ -95,7 +104,7 @@ class RestaurantDetailViewController: UIViewController, UITableViewDataSource, U
       return cell
     case 2:
       let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: RestaurantDetailTextCell.self), for: indexPath) as! RestaurantDetailTextCell
-      cell.descriptionLabel.text = restaurant.description
+      cell.descriptionLabel.text = restaurant.summary
       cell.selectionStyle = .none
 
       return cell
@@ -108,7 +117,9 @@ class RestaurantDetailViewController: UIViewController, UITableViewDataSource, U
     case 4:
       let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: RestaurantDetailMapCell.self), for: indexPath) as! RestaurantDetailMapCell
       cell.selectionStyle = .none
-      cell.configure(location: restaurant.location)
+      if let restaurantLocation = restaurant.location {
+        cell.configure(location: restaurantLocation)
+      }
 
       return cell
     default:
